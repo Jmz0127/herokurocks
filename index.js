@@ -1,5 +1,4 @@
 const user = process.env.USER;
-const shell = process.env.SHELL;
 
 // to inject the config var inside of the .env file
 require('dotenv').config();
