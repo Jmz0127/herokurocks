@@ -1,6 +1,9 @@
 const user = process.env.USER;
 const shell = process.env.SHELL;
 
+// to inject the config var inside of the .env file
+require('dotenv').config()
+
 if (process.argv[2] === 'web-49') {
 	//in terminal try node index.js web-49 - this passes an argument to test
 	console.log('hi');
